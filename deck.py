@@ -20,3 +20,6 @@ class Deck:
             return self.cards.pop()
         else:
             return None
+
+    def get_cards_count(self):
+        return len(self.cards)
