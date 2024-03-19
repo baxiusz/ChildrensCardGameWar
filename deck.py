@@ -20,22 +20,3 @@ class Deck:
             return self.cards.pop()
         else:
             return None
-
-# Example usage:
-if __name__ == "__main__":
-    deck = Deck()
-    print("Initial deck:")
-    print(deck.cards)
-    print()
-
-    deck.shuffle()
-    print("Shuffled deck:")
-    print(deck.cards)
-    print()
-
-    drawn_card = deck.draw_card()
-    print("Drawn card:", drawn_card)
-    print()
-
-    print("Updated deck after drawing a card:")
-    print(deck.cards)
