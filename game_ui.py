@@ -3,6 +3,7 @@ from game_logic import WarGame
 class WarGameUI:
     def __init__(self):
         self.game = WarGame("Player 1", "Player 2")
+        self.game.deal_cards()  # Deal cards before starting the game
 
     def print_intro(self):
         print("Welcome to the War card game!")
