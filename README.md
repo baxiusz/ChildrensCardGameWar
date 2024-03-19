@@ -1,4 +1,5 @@
 Children's Card Game: War
+
 Overview
 The goal of this project is to implement a Python program for the classic children's card game, War. The game will be developed using the Object-Oriented Programming (OOP) paradigm to ensure modularity, readability, and extensibility of the codebase.
 
